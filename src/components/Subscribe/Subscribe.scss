@@ -1,0 +1,73 @@
+@import '../../style/index.scss';
+
+.subscribe_section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+    .subscribe_information {
+        padding: 56px 64px;
+        background-color: $backgroundSubscribe;
+
+        .subscribe_information_titleAndDescription {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            .subscribe_title {
+                font-family: 'Bebas Neue', sans-serif;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 150%;
+                color: $textColor;
+            }
+
+            .subscribe_description {
+                font-family: 'DIN Pro', sans-serif;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 156%;
+                color: $hintColor
+            }
+        }
+
+        .subscribe_elements_input {
+            margin-top: 48px;
+
+            .subscribe_input_text {
+                padding: 16px 32px 16px 24px;
+                width: 992px;
+                height: 56px;
+                border: none;
+                border-radius: 2px;
+                font-family: 'DIN Pro', sans-serif;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 150%;
+                color: $hintColor;
+                position: relative;
+            }
+
+            .subscribe_Btn {
+                padding: 16px 40px;
+                width: 147px;
+                height: 56px;
+                background: $backgroundBtnColor;
+                border: none;
+                border-radius: 0 2px 2px 0;
+                font-family: 'Bebas Neue', sans-serif;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 133%;
+                color: $btnTextColor;
+                position: absolute;
+                z-index: 2;
+                top: 312px;
+                right: 0;
+                bottom: 0;
+                left: 1045px;
+                cursor: pointer;
+            }
+        }
+    }
+}

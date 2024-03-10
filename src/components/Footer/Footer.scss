@@ -1,0 +1,33 @@
+@import '../../style/index.scss';
+
+.footer_section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+    .footer_elements {
+        margin-top: 72px;
+        border-top: 1px solid $colorLine;
+
+        .footer_information {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-top: 35px;
+        }
+
+        .content_developer {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 150%;
+            color: $hintColor;
+        }
+
+        .content_allRights {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 150%;
+            color: $hintColor;
+        }
+    }
+}

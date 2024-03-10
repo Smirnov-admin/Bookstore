@@ -1,0 +1,90 @@
+@import '../../style/index.scss';
+
+.header_section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+    .header_elements {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 24px 0;
+    }
+
+    .header_elements_logo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .header_elements_search input {
+        width: 542px;
+        border: 1px solid $colorLine;
+        font-size: 16px;
+        padding: 14px 40px 14px 20px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 200%;
+        color: $hintColor;
+        position: relative;
+    }
+
+    .header_itemSearch_logo {
+        position: absolute;
+        top: 45px;
+        right: 0;
+        bottom: 0;
+        left: calc(100% - 510px);
+        z-index: 2;
+    }
+
+    .header_elements_favoritesBasketSignIn {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 184px;
+
+        .header_elements_favorites {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            .header_btn_favorites {
+                width: 56px;
+                border: none;
+                background: none;
+                z-index: 2;
+                cursor: pointer;
+            }
+        }
+
+        .header_elements_basket {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            .header_btn_basket {
+                width: 56px;
+                border: none;
+                background: none;
+                z-index: 2;
+                cursor: pointer;
+            }
+        }
+
+        .header_elements_signIn {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            .header_btn_signIn {
+                width: 56px;
+                border: none;
+                background: none;
+                z-index: 2;
+                cursor: pointer;
+            }
+        }
+    }
+}
