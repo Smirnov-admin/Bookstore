@@ -1,8 +1,7 @@
 import './App.css'
 import Footer from './components/Footer/Footer'
 import Header from './components/Header/Header'
-import FavoritesPage from './page/FavoritesPage/FavoritesPage'
-
+import HomePage from './page/HomePage/HomePage'
 
 
 function App() {
@@ -10,7 +9,7 @@ function App() {
   return (
     <div className="body">
     <Header/>
-      <FavoritesPage/>
+    <HomePage/>
     <Footer/>
     </div>
   )

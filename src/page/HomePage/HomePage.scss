@@ -1,0 +1,27 @@
+@import '../../style/index.scss'; 
+
+.homePage_section {
+    max-width: 1200px;
+    margin: 72px auto;
+    padding: 0 15px;
+
+    .homePage_element {
+
+        .homePage_title {
+            padding-bottom: 48px;
+            font-weight: 700;
+            font-size: 56px;
+            line-height: 114%;
+            color: $textColor;
+        }
+
+        .homePage_item_list {
+            display: grid;
+            grid-auto-flow: row;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding-bottom: 48px;
+            border-bottom: 1px solid $colorLine;
+        }
+    }
+}

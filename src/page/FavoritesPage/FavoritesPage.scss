@@ -1,0 +1,117 @@
+@import '../../style/index.scss';
+
+.favoritesPage_section {
+    max-width: 1200px;
+    margin: 72px auto;
+    padding: 0 15px;
+
+    .favoritesPage_elements {
+
+        .favoritesPage_elements_back {
+
+            .favoritesPage_btnBack {
+                width: 56px;
+                height: 24px;
+                border: none;
+                background: none;
+                cursor: pointer;
+            }
+        }
+
+        .favoritesPage_elements_title {
+            margin: 32px 0 42px 0;
+
+            .favoritesPage_title {
+                font-family: 'Bebas Neue', sans-serif;
+                font-weight: 700;
+                font-size: 56px;
+                line-height: 114%;
+                color: $textColor;
+            }
+        }
+
+        .favoritesPage_item_list {
+
+            .favoritesPage_item {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                padding: 48px 0;
+                border-bottom: 1px solid $colorLine;
+
+                .favoritesPage_elements_imageAndDescription {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    gap: 32px;
+
+                    .favoritesPage_elements_image {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        width: 256px;
+                        height: 192px;
+                        background: $backgroundImageBook;
+                    }
+
+                    .favoritesPage_elements_image img {
+                        display: block;
+                        width: 163px;
+                        height: 191px;
+                    }
+
+                    .favoritesPage_elements_descriptionAndPrice {
+                        padding-top: 36px;
+                        width: 446px;
+
+                        .favoritesPage_elements_description {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-between;
+                            gap: 8px;
+
+                            .favoritesPage_description_title {
+                                font-family: 'Bebas Neue', sans-serif;
+                                font-weight: 700;
+                                font-size: 24px;
+                                line-height: 133%;
+                                color: $textColor;
+                            }
+
+                            .favoritesPage_elements_author {
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 150%;
+                                color: $hintColor;
+                            }
+
+                            .favoritesPage_price {
+                                padding-top: 24px;
+                                font-family: 'Bebas Neue', sans-serif;
+                                font-weight: 700;
+                                font-size: 24px;
+                                line-height: 133%;
+                                color: $textColor;
+                            }
+                        }
+                    }
+                }
+
+                .favoritesPage_elements_btnFavorites {
+                    margin: 68px 0 117px 0;
+                    width: 56px;
+                    height: 56px;
+                    box-shadow: -3px 3px 3px  $hintColor;
+
+                    .favoritesPage_btnFavorites {
+                        width: 56px;
+                        height: 56px;
+                        border: none;
+                        background: #FFF;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}

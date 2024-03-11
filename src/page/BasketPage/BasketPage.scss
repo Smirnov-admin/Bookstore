@@ -1,0 +1,204 @@
+@import '../../style/index.scss';
+
+.basketPage_section {
+    max-width: 1200px;
+    margin: 72px auto;
+    padding: 0 15px;
+
+    .basketPage_elements {
+
+        .basketPage_elements_back {
+
+            .basketPage_btnBack {
+                width: 56px;
+                height: 24px;
+                border: none;
+                background: none;
+                cursor: pointer;
+            }
+        }
+
+        .basketPage_elements_title {
+            margin: 32px 0 42px 0;
+
+            .basketPage_title {
+                font-family: 'Bebas Neue', sans-serif;
+                font-weight: 700;
+                font-size: 56px;
+                line-height: 114%;
+                color: $textColor;
+            }
+        }
+
+        .basketPage_item_list {
+
+            .basketPage_item {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                padding-bottom: 48px;
+                border-bottom: 1px solid $colorLine;
+
+                .basketPage_elements_imageAndDescription {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    gap: 32px;
+
+                    .basketPage_elements_image {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        width: 256px;
+                        height: 192px;
+                        background: $backgroundImageBook;
+                    }
+
+                    .basketPage_elements_image img {
+                        display: block;
+                        width: 163px;
+                        height: 191px;
+                    }
+
+                    .basketPage_elements_descriptionAndCount {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 24px;
+                        width: 446px;
+
+                        .basketPage_elements_description {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-between;
+                            gap: 8px;
+
+                            .basketPage_description_title {
+                                font-family: 'Bebas Neue', sans-serif;
+                                font-weight: 700;
+                                font-size: 24px;
+                                line-height: 133%;
+                                color: $textColor;
+                            }
+
+                            .basketPage_elements_author {
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 150%;
+                                color: $hintColor;
+                            }
+                        }
+
+                        .basketPage_elements_count {
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-between;
+                            width: 168px;
+
+                            .basketPage_elements_btnTakeAway {
+                                width: 56px;
+                                height: 56px;
+                                border: none;
+                                background: none;
+                                cursor: pointer;
+                            }
+
+                            .basketPage_elements_count_text {
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                font-family: 'Bebas Neue', sans-serif;
+                                font-weight: 700;
+                                font-size: 24px;
+                                line-height: 133%;
+                                color: $textColor;
+                            }
+
+                            .basketPage_elements_btnAdd {
+                                width: 56px;
+                                height: 56px;
+                                border: none;
+                                background: none;
+                                cursor: pointer;
+                            }
+                        }
+                    }
+
+                }
+
+                .basketPage_elements_price {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+
+
+                    .basketPage_price {
+                        font-family: 'Bebas Neue', sans-serif;
+                        font-weight: 700;
+                        font-size: 40px;
+                        line-height: 150%;
+                        color: $textColor;
+                        max-width: 90px;
+                    }
+                }
+
+                .basketPage_elements_btnDelete {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+
+                    .basketPage_btnDelete {
+                        width: 56px;
+                        height: 56px;
+                        border: none;
+                        background: none;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+
+        .basketPage_element_checkPrice {
+            display: flex;
+            flex-direction: row;
+            justify-content: right;
+
+            .basketPage_elements_check {
+                display: flex;
+                flex-direction: column;
+                gap: 42px;
+                margin-top: 48px;
+                width: 256px;
+
+                .basketPage_elements_check_description {
+                    display: flex;
+                    flex-direction: row;
+                    gap: 88px;
+
+                    .basketPage_elements_total {
+                        font-family: 'Bebas Neue', sans-serif;
+                        font-weight: 700;
+                        font-size: 40px;
+                        line-height: 150%;
+                        color: $textColor;
+                    }
+                }
+
+                .basketPage_elements_btnCheckOut {
+
+                    .basketPage_checkOut {
+                        width: 256px;
+                        height: 56px;
+                        background: $backgroundBtnColor;
+                        border: none;
+                        cursor: pointer;
+                        font-family: 'Bebas Neue', sans-serif;
+                        font-weight: 700;
+                        font-size: 24px;
+                        text-align: center;
+                        color: $btnTextColor;
+                    }
+                }
+            }
+        }
+    }
+}
