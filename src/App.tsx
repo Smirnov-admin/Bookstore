@@ -1,12 +1,18 @@
 import './App.css'
-import BookCard from './components/BookCard/BookCard'
+import Footer from './components/Footer/Footer'
+import Header from './components/Header/Header'
+import FavoritesPage from './page/FavoritesPage/FavoritesPage'
+
+
 
 function App() {
 
   return (
-    <>
-      <BookCard />
-    </>
+    <div className="body">
+    <Header/>
+      <FavoritesPage/>
+    <Footer/>
+    </div>
   )
 }
 

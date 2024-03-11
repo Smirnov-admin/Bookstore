@@ -1,0 +1,26 @@
+@import '../../style/index.scss';
+
+.popularBooks_section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+    .popularBooks_elements {
+
+        .popularBooks_elements_title {
+            font-family: 'Bebas Neue', sans-serif;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 150%;
+            color: $textColor;
+        }
+        
+        .popularBooks_item_list {
+            margin-top: 48px;
+            display: grid;
+            grid-auto-flow: row;
+            grid-template-columns: repeat(3, 352px);
+            gap: 56px;
+        }
+    }   
+}

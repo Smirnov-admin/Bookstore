@@ -6,7 +6,7 @@
     padding: 0 15px;
 
     .subscribe_information {
-        padding: 56px 64px;
+        padding: 56px 59px;
         background-color: $backgroundSubscribe;
 
         .subscribe_information_titleAndDescription {
@@ -33,10 +33,12 @@
 
         .subscribe_elements_input {
             margin-top: 48px;
+            max-width: 992px;
+            position: relative;
 
             .subscribe_input_text {
-                padding: 16px 32px 16px 24px;
-                width: 992px;
+                padding: 16px 150px 16px 24px;
+                width: 100%;
                 height: 56px;
                 border: none;
                 border-radius: 2px;
@@ -45,7 +47,7 @@
                 font-size: 16px;
                 line-height: 150%;
                 color: $hintColor;
-                position: relative;
+                
             }
 
             .subscribe_Btn {
@@ -62,10 +64,8 @@
                 color: $btnTextColor;
                 position: absolute;
                 z-index: 2;
-                top: 312px;
+                top: 0;
                 right: 0;
-                bottom: 0;
-                left: 1045px;
                 cursor: pointer;
             }
         }

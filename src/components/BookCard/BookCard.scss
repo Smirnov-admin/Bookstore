@@ -1,0 +1,64 @@
+@import '../../style/index.scss';
+
+.bookCard_element {
+    max-width: 352px;
+
+    .bookCard_element_information {
+
+        .bookCard_element_image {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            background: $backgroundImageBook;
+        }
+
+        .bookCard_element_description {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap: 16px;
+            margin: 20px 17px 40px 0;
+
+            .bookCard_element_title {
+                font-family: 'Bebas Neue', sans-serif;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 133%;
+                color: $textColor;
+            }
+    
+            .bookCard_element_author {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 150%;
+                color: $hintColor;
+            }
+        }
+
+        .bookCard_element_priceAndRating {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            .bookCard_element_price {
+                font-family: 'Bebas Neue', sans-serif;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 133%;
+                color: $textColor;
+            }
+
+            .bookCard_element_rating {
+                font-family: 'Bebas Neue', sans-serif;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 133%;
+                color: $textColor; 
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                gap: 10px;
+            }
+        }
+    }
+}
